@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Tarea de Cvs"
+  />
+  <title>Currículums de Newton, Tesla y Ye</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <header class="header">
+      <h1>Tarea de Currículums </h1>
+      <p>  Santos Acosta Rodrigo Ismael, Asocie un cv a cada una de las opciones de la barra  </p>
+    </header>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio" aria-controls="inicio" aria-current="page">1mer Cv</a>
+      <a href="#articulos" aria-controls="articulos">2do cv</a>
+      <a href="#ye" aria-controls="ye">3ser cv</a>
+    </nav>
+
+    <aside class="sidebar sidebar-left">
+      <h2>Navegación</h2>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <article class="cv" id="inicio">
+        <header class="cv-header">
+          <img
+            class="cv-photo"
+            src="newton2.jpg"
+            alt="Retrato de Isaac Newton"
+          />
+          <div>
+            <p class="cv-eyebrow">Currículum vitae</p>
+            <h2>Sir Isaac Newton</h2>
+            <p class="cv-role">Físico, matemático y astrónomo</p>
+            <p class="cv-contact">
+              Woolsthorpe, Inglaterra · 1643–1727
+            </p>
+          </div>
+        </header>
+
+        <section class="cv-section" aria-labelledby="perfil">
+          <h3 id="perfil">Perfil profesional</h3>
+          <p>
+            Científico inglés considerado una de las figuras más influyentes de
+            la revolución científica. Sus trabajos en mecánica clásica, óptica
+            y matemáticas transformaron la comprensión del movimiento y de la
+            naturaleza.
+          </p>
+        </section>
+
+        <section class="cv-section" aria-labelledby="experiencia">
+          <h3 id="experiencia">Experiencia laboral</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Profesor lucasiano de Matemáticas</h4>
+              <span>1669 – 1702</span>
+            </div>
+            <p class="cv-subheading">Universidad de Cambridge · Inglaterra</p>
+            <ul>
+              <li>Realizó investigaciones fundamentales sobre óptica y matemáticas.</li>
+              <li>Desarrolló el cálculo de manera independiente a Gottfried Wilhelm Leibniz.</li>
+            </ul>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Director de la Casa de la Moneda</h4>
+              <span>1696 – 1727</span>
+            </div>
+            <p class="cv-subheading">Royal Mint · Londres, Inglaterra</p>
+            <ul>
+              <li>Supervisó la reforma monetaria y la lucha contra la falsificación.</li>
+              <li>Fue elegido presidente de la Royal Society en 1703.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="formacion">
+          <h3 id="formacion">Formación académica</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Estudios en Matemáticas y Filosofía natural</h4>
+              <span>1661 – 1665</span>
+            </div>
+            <p class="cv-subheading">Trinity College, Universidad de Cambridge</p>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="obras">
+          <h3 id="obras">Obras destacadas</h3>
+          <ul>
+            <li><cite>Philosophiæ Naturalis Principia Mathematica</cite> (1687)</li>
+            <li><cite>Opticks</cite> (1704)</li>
+          </ul>
+        </section>
+
+        <section class="cv-section cv-details">
+          <div>
+            <h3>Habilidades</h3>
+            <p>Mecánica clásica · Óptica · Cálculo · Astronomía · Método científico</p>
+          </div>
+          <div>
+            <h3>Idiomas</h3>
+            <p>Inglés: lengua materna · Latín: académico</p>
+          </div>
+        </section>
+      </article>
+
+      <article class="cv" id="articulos" hidden>
+        <header class="cv-header">
+          <img
+            class="cv-photo"
+            src="tesla.jpeg"
+            alt="Retrato de Nikola Tesla"
+          />
+          <div>
+            <p class="cv-eyebrow">Currículum vitae</p>
+            <h2>Nikola Tesla</h2>
+            <p class="cv-role">Inventor e ingeniero eléctrico</p>
+            <p class="cv-contact">Smiljan, Imperio austríaco · 1856–1943</p>
+          </div>
+        </header>
+
+        <section class="cv-section" aria-labelledby="perfil-tesla">
+          <h3 id="perfil-tesla">Perfil profesional</h3>
+          <p>
+            Inventor e ingeniero serbio-estadounidense, reconocido por sus
+            contribuciones al desarrollo de los sistemas eléctricos de corriente
+            alterna y a la tecnología moderna.
+          </p>
+        </section>
+
+        <section class="cv-section" aria-labelledby="experiencia-tesla">
+          <h3 id="experiencia-tesla">Experiencia e investigación</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Ingeniero e inventor independiente</h4>
+              <span>1884 – 1943</span>
+            </div>
+            <p class="cv-subheading">Nueva York, Estados Unidos</p>
+            <ul>
+              <li>Desarrolló sistemas polifásicos de corriente alterna y el motor de inducción.</li>
+              <li>Investigó la transmisión inalámbrica de energía y las corrientes de alta frecuencia.</li>
+            </ul>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Ingeniero eléctrico</h4>
+              <span>1881 – 1884</span>
+            </div>
+            <p class="cv-subheading">Budapest y París, Europa</p>
+            <ul>
+              <li>Trabajó en telefonía y sistemas de iluminación eléctrica.</li>
+              <li>Se trasladó a Estados Unidos para continuar su carrera de inventor.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="formacion-tesla">
+          <h3 id="formacion-tesla">Formación académica</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Estudios de ingeniería eléctrica</h4>
+              <span>1875 – 1878</span>
+            </div>
+            <p class="cv-subheading">Instituto Politécnico de Graz</p>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="logros-tesla">
+          <h3 id="logros-tesla">Logros destacados</h3>
+          <ul>
+            <li>Patentes relacionadas con sistemas de corriente alterna.</li>
+            <li>Bobina de Tesla, dispositivo para producir corrientes de alta tensión y frecuencia.</li>
+            <li>Inducción electromagnética aplicada a motores eléctricos.</li>
+          </ul>
+        </section>
+
+        <section class="cv-section cv-details">
+          <div>
+            <h3>Áreas de especialidad</h3>
+            <p>Electricidad · Electromagnetismo · Motores · Invención</p>
+          </div>
+          <div>
+            <h3>Idiomas</h3>
+            <p>Serbio · Inglés · Alemán · Francés</p>
+          </div>
+        </section>
+      </article>
+
+      <article class="cv" id="ye" hidden>
+        <header class="cv-header">
+          <img
+            class="cv-photo"
+            src="Ye.jpg"
+            alt="Retrato de Ye, también conocido como Kanye West"
+          />
+          <div>
+            <p class="cv-eyebrow">Currículum vitae</p>
+            <h2>Ye (Kanye West)</h2>
+            <p class="cv-role">Artista, productor musical y diseñador</p>
+            <p class="cv-contact">Atlanta, Georgia, Estados Unidos · 1977</p>
+          </div>
+        </header>
+
+        <section class="cv-section" aria-labelledby="perfil-ye">
+          <h3 id="perfil-ye">Perfil profesional</h3>
+          <p>
+            Artista y productor estadounidense que ha desarrollado una carrera
+            en la música, la moda y el diseño. Es conocido por su trabajo como
+            productor y por sus álbumes de hip-hop; y nmmz ese wey hizo Graduation.
+          </p>
+        </section>
+
+        <section class="cv-section" aria-labelledby="experiencia-ye">
+          <h3 id="experiencia-ye">Experiencia profesional</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Artista discográfico</h4>
+              <span>2004 – Actualidad</span>
+            </div>
+            <p class="cv-subheading">Carrera musical · Estados Unidos</p>
+            <ul>
+              <li>Ha publicado álbumes como <cite>The College Dropout</cite>, <cite>Late Registration</cite> y <cite>Graduation</cite>.</li>
+              <li>Ha trabajado como rapero, compositor y productor musical.</li>
+            </ul>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Diseñador y colaborador creativo</h4>
+              <span>2010 – Actualidad</span>
+            </div>
+            <p class="cv-subheading">Moda, calzado y dirección creativa</p>
+            <ul>
+              <li>Ha participado en proyectos de diseño de moda y calzado.</li>
+              <li>Ha colaborado con marcas y equipos creativos en distintas colecciones.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="formacion-ye">
+          <h3 id="formacion-ye">Formación</h3>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h4>Estudios de arte</h4>
+              <span>Década de 1990</span>
+            </div>
+            <p class="cv-subheading">Chicago State University · No completó el programa</p>
+          </div>
+        </section>
+
+        <section class="cv-section" aria-labelledby="logros-ye">
+          <h3 id="logros-ye">Reconocimientos</h3>
+          <ul>
+            <li>Ganador de múltiples premios Grammy por su trabajo musical.</li>
+            <li>Álbumes y producciones con impacto en la música hip-hop contemporánea.</li>
+          </ul>
+        </section>
+
+        <section class="cv-section cv-details">
+          <div>
+            <h3>Áreas de especialidad</h3>
+            <p>Producción musical · Rap · Composición · Diseño</p>
+          </div>
+          <div>
+            <h3>Idioma</h3>
+            <p>Inglés</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <aside class="sidebar sidebar-right">
+      <h2>Información adicional</h2>
+      <p>Enlaces relacionados, anuncios o widgets.</p>
+    </aside>
+
+    <footer class="footer" id="contacto">
+      <p>&copy; 2026 Mi sitio web. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+  <script>
+    const cvLinks = document.querySelectorAll('.nav a[aria-controls]');
+    const cvs = document.querySelectorAll('.main > .cv');
+
+    function showSelectedCv() {
+      const selectedId = Array.from(cvs).some((cv) => `#${cv.id}` === window.location.hash)
+        ? window.location.hash.slice(1)
+        : 'inicio';
+
+      cvs.forEach((cv) => {
+        cv.hidden = cv.id !== selectedId;
+      });
+
+      cvLinks.forEach((link) => {
+        if (link.hash === `#${selectedId}`) {
+          link.setAttribute('aria-current', 'page');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
+    }
+
+    window.addEventListener('hashchange', showSelectedCv);
+    showSelectedCv();
+  </script>
+</body>
+</html>
